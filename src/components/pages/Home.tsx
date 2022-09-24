@@ -13,23 +13,23 @@ const Home:React.FC = () => {
         <h1 className='text-6xl text-primary my-3'>Full Stack Web Developer</h1>
         <p className='text-md md:text-justify text-center ml-4 my-2  font-semibold'>
           I am familiar with React and TailWind for the Frontend. And Django or
-          ASP.NET core for the backend. 
+          ASP.NET core for the backend.
         </p>
         <p className='text-md md:text-justify text-center ml-4 my-2  font-semibold'>
-          I have a serious passion for UI effects,
-          animations and creating intuitive, dynamic user experiences.
-          Well-organised person, problem solver with high
-          attention to detail. Interested in the entire frontend spectrum and
-          working on ambitious projects with positive people.
+          I have a serious passion for UI effects, animations and creating
+          intuitive, dynamic user experiences. Well-organised person, problem
+          solver with high attention to detail. Interested in the entire
+          frontend spectrum and working on ambitious projects with positive
+          people.
         </p>
-        <div className='flex items-center md:justify-start justify-center   gap-2'>
+        <div className='flex items-center md:justify-start justify-center  gap-2'>
           <div className='text-2xl text-primary my-3'>
             <BsFillPersonFill />
           </div>
 
           <a
             href='#Footer'
-            className='  cursor-pointer font-medium text-lg hover:text-primary ease-in-out duration-100'
+            className='  cursor-pointer font-medium text-lg  text-primary '
           >
             Let’s make something special.
           </a>

@@ -17,8 +17,8 @@ const Skills: React.FC = () => {
       <div className='flex gap-4 flex-wrap justify-center '>
         <SkilCard
           skilName={"React"}
-          level={"80%"}
-          borderColer='#00d8ff'
+          level={"w-[90%]"}
+          borderColer='border-[#00d8ff]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -26,8 +26,8 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"Tailwind"}
-          level={"50%"}
-          borderColer='#89B4FA'
+          level={"w-[95%]"}
+          borderColer='border-[#89B4FA]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -35,7 +35,8 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"CSS"}
-          borderColer='#0B61EE'
+          level={"w-[95%]"}
+          borderColer='border-[#0B61EE]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -43,7 +44,8 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"javascript"}
-          borderColer='#F7AE32'
+          level={"w-[75%]"}
+          borderColer='border-[#F7AE32]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -51,7 +53,8 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"TypeScript"}
-          borderColer='#084BB8'
+          borderColer='border-[#084BB8]'
+          level={"w-[95%]"}
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -59,7 +62,8 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"Django"}
-          borderColer='#075239'
+          level={"w-[75%]"}
+          borderColer='border-[#075239]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
@@ -67,15 +71,17 @@ const Skills: React.FC = () => {
         </SkilCard>
         <SkilCard
           skilName={"ASP.NET core"}
-          borderColer='#621ee5'
+          level={"w-[70%]"}
+          borderColer='border-[#621ee5]'
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >
           <IconDotNet />
         </SkilCard>
         <SkilCard
-          skilName={"Microsoft Sql Server"}
-          borderColer='#a91d22'
+          skilName={"MSql Server"}
+          borderColer='border-[#a91d22]'
+          level={"w-[60%]"}
           skilDescription='I have three years of experience with React. I use it to build Frontend
         Web apps and i love it.'
         >

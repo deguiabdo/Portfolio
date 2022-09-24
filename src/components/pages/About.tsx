@@ -9,14 +9,13 @@ const [length, setLength] = React.useState<number>(180);
     function handelLength():void{
       setLength(prev=>prev===180?2000:180)
     }
-    const p:string = `I’m an experienced software developer with over foor years of experience 
+    const p: string = `I’m an experienced software developer with over four years of experience 
     in the industry, and I have worked on several projects during that time.
         I create successful responsive websites that are fast, easy to use, and
         built with best practices. The main area of my expertise is front-end
         development, HTML, CSS, JS, building small and medium web apps, custom
         plugins, features, animations, and coding interactive layouts. I also
-        have full-stack developer experience with popular open-source CMS like
-        (WordPress, Drupal, Magento, Keystone.js and others) .`;
+        have full-stack developer experience with popular Frameworks like Django and Asp.net core .`;
   return (
     <div id='About' className='pt-24 h-auto px-12'>
       <PageHeader title={" About me"} />
@@ -31,8 +30,8 @@ const [length, setLength] = React.useState<number>(180);
       </p>
       <div className=' flex flex-wrap gap-8 justify-around'>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
-          <div className='h-12 grid place-items-center bg-[#0dcaf0] mb-4'>
-            <h1 className='font-bold'>Education</h1>
+          <div className='h-12 grid place-items-center  bg-primary mb-4'>
+            <h1 className='font-bold text-white'>Education</h1>
           </div>
           <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
@@ -66,9 +65,9 @@ const [length, setLength] = React.useState<number>(180);
             </div>
           </div>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold'>Certificates</h1>
+            <h1 className='font-bold text-white'>Certificates</h1>
           </div>
-          <div className=' border-[#0dcaf0] border-l-2 m-4'>
+          <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
               <div className='text-2xl  text-primary'>
                 <GoPrimitiveDot />
@@ -81,9 +80,12 @@ const [length, setLength] = React.useState<number>(180);
             </div>
           </div>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold'> certificate off attendance</h1>
+            <h1 className='font-bold text-white'>
+             
+              certificate off attendance
+            </h1>
           </div>
-          <div className=' border-[#0dcaf0] border-l-2 m-4'>
+          <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
               <div className='text-2xl  text-primary'>
                 <GoPrimitiveDot />
@@ -116,9 +118,9 @@ const [length, setLength] = React.useState<number>(180);
         </div>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold'>Experience</h1>
+            <h1 className='font-bold text-white'>Experience</h1>
           </div>
-          <div className=' border-[#0dcaf0] border-l-2 m-4'>
+          <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
               <div className='text-2xl  text-primary'>
                 <GoPrimitiveDot />
@@ -176,9 +178,9 @@ const [length, setLength] = React.useState<number>(180);
         </div>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold'>Why Should You Hire Me?</h1>
+            <h1 className='font-bold text-white'>Why Should You Hire Me?</h1>
           </div>
-          <div className=' border-[#0dcaf0] border-l-2 m-4'>
+          <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
               <div className='text-2xl  text-primary'>
                 <GoPrimitiveDot />
