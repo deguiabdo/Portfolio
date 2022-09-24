@@ -49,7 +49,7 @@ const LatetsWork: React.FC = () => {
       description: "My Challeng to build a Tenzies game in 3 hours  ",
       duration: "4 hours",
       tech: ["React", "Tailwind", "Css", "javaScript"],
-      previewLink: "",
+      previewLink: "https://deguiabdo.github.io/Tenzies/",
       codeLink: "https://github.com/deguiabdo/Tenzies",
     },
   ];
