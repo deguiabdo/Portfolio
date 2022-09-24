@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsGear } from 'react-icons/bs';
 interface Props {
   children: JSX.Element;
   borderColer: string;

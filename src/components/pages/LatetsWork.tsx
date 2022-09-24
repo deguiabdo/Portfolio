@@ -6,7 +6,7 @@ const LatetsWork: React.FC = () => {
 
   const works: Array<Work> = [
     {
-      img: "/assetes/imgDelevry.png",
+      img: "Portfolio/assetes/imgDelevry.png",
       title: "Nibble ",
       description: " food delivery service ui  based on given figma design ",
       duration: "14 days",
@@ -15,7 +15,7 @@ const LatetsWork: React.FC = () => {
       codeLink: "https://github.com/deguiabdo/nibbel",
     },
     {
-      img: "/assetes/imgNiblle.png",
+      img: "/Portfolio/assetes/imgNiblle.png",
       title: "Food Delivery Service",
       description:
         "Delivery food service UI  based on given figma design with 2 breakpoints",
@@ -25,7 +25,7 @@ const LatetsWork: React.FC = () => {
       codeLink: "https://github.com/deguiabdo/delivery-react-app",
     },
     {
-      img: "/assetes/PortFolio.PNG",
+      img: "/Portfolio/public/assetes/PortFolio.PNG",
       title: "My portfolio",
       description: "This is the current portfolio you are in",
       duration: "3 days",
