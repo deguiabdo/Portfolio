@@ -13,7 +13,7 @@ const [length, setLength] = React.useState<number>(180);
     in the industry, and I have worked on several projects during that time.
         I create successful responsive websites that are fast, easy to use, and
         built with best practices. The main area of my expertise is front-end
-        development, HTML, CSS, JS, building small and medium web apps, custom
+        development, React, TailWind, HTML, CSS, JS, building small and medium web apps, custom
         plugins, features, animations, and coding interactive layouts. I also
         have full-stack developer experience with popular Frameworks like Django and Asp.net core .`;
   return (
@@ -80,10 +80,7 @@ const [length, setLength] = React.useState<number>(180);
             </div>
           </div>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold text-white'>
-             
-              certificate off attendance
-            </h1>
+            <h1 className='font-bold text-white'>Certificate off attendance</h1>
           </div>
           <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>
@@ -178,7 +175,7 @@ const [length, setLength] = React.useState<number>(180);
         </div>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
           <div className='h-12 grid place-items-center bg-primary mb-4'>
-            <h1 className='font-bold text-white'>Why Should You Hire Me?</h1>
+            <h1 className='font-bold text-white'>Personal Qualities</h1>
           </div>
           <div className=' border-primary border-l-2 m-4'>
             <div className='flex -ml-[13px] my-2 gap-2'>

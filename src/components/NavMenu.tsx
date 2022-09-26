@@ -6,7 +6,7 @@ const NavMenu: React.FC<Props> = ({ toggelShow }) => {
   return (
     <ul className='flex flex-col text-center items-center absolute top-20 bg-white w-screen  gap-3  sm:flex  text-base'>
       <li className='cursor-pointer border-b p-2 w-full border-primary hover:text-primary ease-in-out duration-100'>
-        <a onClick={toggelShow} className='duration-300 ease-in' href='#Home'>
+        <a onClick={toggelShow}  href='#Home'>
           Home
         </a>
       </li>

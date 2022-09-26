@@ -6,45 +6,46 @@ const LatetsWork: React.FC = () => {
 
   const works: Array<Work> = [
     {
-      img: "Portfolio/assetes/imgDelevry.png",
+      img: "/Portfolio/assetes/imgDelevry.png",
       title: "Nibble ",
-      description: " food delivery service ui  based on given figma design ",
-      duration: "14 days",
+      description:
+        " food delivery service ui  based on given figma design with 2 breakpoints tablet and large screen ",
+      duration: "13 days",
       tech: ["Tailwind", "Css", "JavaScript"],
-      previewLink: "",
+      previewLink: "https://deguiabdo.github.io/delivery-react-app/",
       codeLink: "https://github.com/deguiabdo/nibbel",
     },
     {
       img: "/Portfolio/assetes/imgNiblle.png",
       title: "Food Delivery Service",
       description:
-        "Delivery food service UI  based on given figma design with 2 breakpoints",
-      duration: "18 days",
+        "Delivery food service UI  based on given figma design with 2 breakpoints tablet and large screen",
+      duration: "15 days",
       tech: ["React", "Tailwind", "Css"],
-      previewLink: "",
+      previewLink: "https://deguiabdo.github.io/delivery-react-app/",
       codeLink: "https://github.com/deguiabdo/delivery-react-app",
     },
     {
-      img: "/Portfolio/public/assetes/PortFolio.PNG",
+      img: "/Portfolio/assetes/PortFolio.PNG",
       title: "My portfolio",
       description: "This is the current portfolio you are in",
       duration: "3 days",
       tech: ["React", "TypeScript", "Tailwind", "Css"],
-      previewLink: "",
+      previewLink: "https://deguiabdo.github.io/Portfolio/",
       codeLink: "https://github.com/deguiabdo/Portfolio",
     },
     {
-      img: "/assetes/netflix-bg-img.jpg",
+      img: "/Portfolio/assetes/netflix-bg-img.jpg",
       title: "Netflix Fans",
       description:
         "front-end Netflix clone with using TMDB API for all of the data",
       duration: "2 days",
       tech: ["React", "Tailwind", "Css"],
-      previewLink: "",
+      previewLink: "https://deguiabdo.github.io/netflix-react-app/",
       codeLink: "https://github.com/deguiabdo/netflix-react-app",
     },
     {
-      img: "/assetes/Tenzies.PNG",
+      img: "/Portfolio/assetes/Tenzies.PNG",
       title: "Tenzies Game challenge",
       description: "My Challeng to build a Tenzies game in 3 hours  ",
       duration: "4 hours",

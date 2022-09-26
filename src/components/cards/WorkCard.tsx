@@ -19,7 +19,7 @@ const WorkCard: React.FC<Work> = ({
       className={`sm:w-[280px] w-[320px] border-2 relative text-slate-800 shadow-2xl  border-blue-600  flex flex-col gap-2  text-center p-2  h-[420px] rounded-[20px] `}
     >
       <img className='w-full h-[40%] rounded-[20px] p-2' src={img} alt='' />
-      <h1 className=' font-semibold  text-sm text-primary '>{title}</h1>
+      <h1 className=' font-bold  text-sm text-secendery '>{title}</h1>
       <p className='text-sm h-[15%]'>{description}</p>
       <div className='flex  justify-around'>
         <div className='flex items-center  gap-1'>
