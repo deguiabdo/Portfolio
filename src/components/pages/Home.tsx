@@ -21,11 +21,13 @@ const Home:React.FC = () => {
         </p>
       </div>
       <div className='md:w-[40%] sm:w-[70%] lg:p-10 p-4 my-auto   flex flex-col gap-2 '>
-        <img
-          className='rounded-full'
-          src='/Portfolio/assetes/degui.PNG'
-          alt=' degui abdo'
-        />
+        <div className='bg-gradient-to-r p-[6px] rounded-full from-[#2a9d8f]  to-[#6EE7B7]'>
+          <img
+            className='rounded-full   '
+            src='/Portfolio/assetes/degui.PNG'
+            alt=' degui abdo'
+          />
+        </div>
         <div className='flex items-center  justify-center  gap-2'>
           <div className='m:text-xl lg:text-2xl text-primary my-3'>
             <BsFillPersonFill />
