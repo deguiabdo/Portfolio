@@ -17,7 +17,7 @@ const [length, setLength] = React.useState<number>(180);
         plugins, features, animations, and coding interactive layouts. I also
         have full-stack developer experience with popular Frameworks like Django and Asp.net core .`;
   return (
-    <div id='About' className='pt-24 h-auto px-12'>
+    <div id='About' className='pt-24 h-auto  px-12'>
       <PageHeader title={" About me"} />
       <p className='text-center -mt-8 sm:w-[60%] w-full mx-auto mb-8'>
         {slicing(p, length)}
@@ -28,7 +28,7 @@ const [length, setLength] = React.useState<number>(180);
           Reed {length === 180 ? "More" : "less"}
         </span>
       </p>
-      <div className=' flex flex-wrap gap-8 justify-around'>
+      <div className=' flex flex-wrap gap-8  justify-around'>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
           <div className='h-12 grid place-items-center  bg-primary mb-4'>
             <h1 className='font-bold text-white'>Education</h1>

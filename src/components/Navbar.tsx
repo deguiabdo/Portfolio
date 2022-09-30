@@ -9,12 +9,10 @@ const Navbar: React.FC = () => {
     setShow(prev=>!prev)
   }
   return (
-    <div className='w-full   z-10 text-secendery shadow-sm bg-white  fixed top-0 font-medium h-20 flex items-center sm:px-0   justify-between sm:justify-evenly '>
+    <div className='w-full   z-10 text-secendery shadow-md bg-white  fixed top-0 font-medium h-20 flex items-center sm:px-0   justify-between sm:justify-evenly '>
       <div className='flex ml-4  items-center gap-4  '>
+        <IconDeveloper />
 
-        
-          <IconDeveloper />
-        
         <h1 className=' text-3xl font-medium '>
           <span className='text-primary'>De</span>gui
           <span className='text-primary'> Ab</span>do

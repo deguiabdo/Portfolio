@@ -16,7 +16,7 @@ const WorkCard: React.FC<Work> = ({
 }) => {
   return (
     <div
-      className={`sm:w-[280px] w-[320px] border-2 relative text-slate-800 shadow-2xl  border-blue-600  flex flex-col gap-2  text-center p-2  h-[420px] rounded-[20px] `}
+      className={`sm:w-[280px] w-[320px] border-2 relative text-slate-800 shadow-2xl   border-primary  flex flex-col gap-2  text-center p-2  h-[420px] rounded-[20px] `}
     >
       <img className='w-full h-[40%] rounded-[20px] p-2' src={img} alt='' />
       <h1 className=' font-bold  text-sm text-secendery '>{title}</h1>

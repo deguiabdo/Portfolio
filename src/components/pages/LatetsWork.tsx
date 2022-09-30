@@ -6,14 +6,14 @@ const LatetsWork: React.FC = () => {
 
   const works: Array<Work> = [
     {
-      img: "/Portfolio/assetes/imgDelevry.png",
-      title: "Nibble ",
+      img: "/Portfolio/assetes/Essekna.png",
+      title: "Essekna",
       description:
-        " food delivery service ui  based on given figma design with 2 breakpoints tablet and large screen ",
-      duration: "13 days",
-      tech: ["Tailwind", "Css", "JavaScript"],
-      previewLink: "https://deguiabdo.github.io/delivery-react-app/",
-      codeLink: "https://github.com/deguiabdo/nibbel",
+        " Real estate platform UI with (Bootstrap,JavaScript, CSS, HTML) based on client design",
+      duration: "3 weeks",
+      tech: ["Bootstrap", "JavaScript", "CSS", "HTML"],
+      previewLink: "https://www.essekna.com/",
+      codeLink: "https://github.com/deguiabdo",
     },
     {
       img: "/Portfolio/assetes/imgNiblle.png",
@@ -33,6 +33,16 @@ const LatetsWork: React.FC = () => {
       tech: ["React", "TypeScript", "Tailwind", "Css"],
       previewLink: "https://deguiabdo.github.io/Portfolio/",
       codeLink: "https://github.com/deguiabdo/Portfolio",
+    },
+    {
+      img: "/Portfolio/assetes/imgDelevry.png",
+      title: "Nibble ",
+      description:
+        " food delivery service ui  based on given figma design with 2 breakpoints tablet and large screen ",
+      duration: "13 days",
+      tech: ["Tailwind", "Css", "JavaScript"],
+      previewLink: "https://deguiabdo.github.io/delivery-react-app/",
+      codeLink: "https://github.com/deguiabdo/nibbel",
     },
     {
       img: "/Portfolio/assetes/netflix-bg-img.jpg",
@@ -58,7 +68,7 @@ const LatetsWork: React.FC = () => {
   return (
     <div id='Work' className='w-full  h-auto pt-24 px-12 '>
       <PageHeader title={"Latest Work"} />
-      <div className='flex gap-6 flex-wrap justify-center '>
+      <div className='flex gap-6 lg:gap-20 flex-wrap justify-center '>
        
         {works.map((item) => (
           <WorkCard
