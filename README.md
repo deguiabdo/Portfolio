@@ -1,4 +1,4 @@
-Live Demo: [demo](https://deguiabdo.github.io/Portfolio/)
+
 
 # Getting Started with Create React App
 
