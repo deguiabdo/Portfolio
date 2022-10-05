@@ -14,6 +14,17 @@ const LatetsWork: React.FC = () => {
       tech: ["Bootstrap", "JavaScript", "CSS", "HTML"],
       previewLink: "https://www.essekna.com/",
       codeLink: "https://github.com/deguiabdo",
+    }
+    ,
+    {
+      img: "/Portfolio/assetes/law.PNG",
+      title: "Law firm",
+      description:
+        "Service-related law website. Built the front-end with Tailwind and React",
+      duration: "3 days",
+      tech: ["React", "Tailwind", "Css"],
+      previewLink: "https://lawways-moeen.web.app/",
+      codeLink: "https://github.com/deguiabdo/Law-firm",
     },
     {
       img: "/Portfolio/assetes/imgNiblle.png",
