@@ -17,7 +17,7 @@ const LatetsWork: React.FC = () => {
     }
     ,
     {
-      img: "/Portfolio/assetes/law.PNG",
+      img: "/Portfolio/assetes/law.png",
       title: "Law firm",
       description:
         "Service-related law website. Built the front-end with Tailwind and React",
