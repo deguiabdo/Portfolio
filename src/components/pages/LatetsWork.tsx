@@ -28,9 +28,9 @@ const LatetsWork: React.FC = () => {
     },
     {
       img: "/Portfolio/assetes/imgNiblle.png",
-      title: "Food Delivery Service",
+      title: "eRestaurant",
       description:
-        "Delivery food service UI  based on given figma design with 2 breakpoints tablet and large screen",
+        "eRestaurant front-end UI with react",
       duration: "15 days",
       tech: ["React", "Tailwind", "Css"],
       previewLink: "https://deguiabdo.github.io/delivery-react-app/",
@@ -39,7 +39,7 @@ const LatetsWork: React.FC = () => {
     {
       img: "/Portfolio/assetes/PortFolio.PNG",
       title: "My portfolio",
-      description: "This is the current portfolio you are in",
+      description: "My portfolio with React",
       duration: "3 days",
       tech: ["React", "TypeScript", "Tailwind", "Css"],
       previewLink: "https://deguiabdo.github.io/Portfolio/",
@@ -47,9 +47,9 @@ const LatetsWork: React.FC = () => {
     },
     {
       img: "/Portfolio/assetes/imgDelevry.png",
-      title: "Nibble ",
+      title: "eRestaurant ",
       description:
-        " food delivery service ui  based on given figma design with 2 breakpoints tablet and large screen ",
+        "eRestaurant front-end UI with Tailwind and JavaScript",
       duration: "13 days",
       tech: ["Tailwind", "Css", "JavaScript"],
       previewLink: "https://deguiabdo.github.io/delivery-react-app/",
@@ -78,7 +78,7 @@ const LatetsWork: React.FC = () => {
 
   return (
     <div id='Work' className='w-full  h-auto pt-24 px-12 '>
-      <PageHeader title={"Latest Work"} />
+      <PageHeader title={"Public Work"} />
       <div className='flex gap-6 lg:gap-20 flex-wrap justify-center '>
        
         {works.map((item) => (

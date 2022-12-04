@@ -13,7 +13,7 @@ import IconSql from "../Icons/IconSql";
 const Skills: React.FC = () => {
   return (
     <div id='Skills' className='w-full pt-24 px-12 h-auto  '>
-      <PageHeader title={"My Skiils"} />
+      <PageHeader title={"Skills"} />
       <div className='flex gap-4 lg:gap-20 flex-wrap justify-center '>
         <SkilCard
           skilName={"React"}

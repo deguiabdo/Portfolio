@@ -23,13 +23,13 @@ const Navbar: React.FC = () => {
           <a href='#Home'>Home</a>
         </li>
         <li className='cursor-pointer hover:text-primary ease-in-out duration-100'>
-          <a href='#About'> About me</a>
+          <a href='#About'> About</a>
         </li>
         <li className='cursor-pointer hover:text-primary ease-in-out duration-100'>
           <a href='#Skills'>Skills</a>
         </li>
         <li className='cursor-pointer hover:text-primary ease-in-out duration-100'>
-          <a href='#Work'>Latest Work</a>
+          <a href='#Work'>Public Work</a>
         </li>
       </ul>
       {show && <NavMenu toggelShow={toggelShow} />}

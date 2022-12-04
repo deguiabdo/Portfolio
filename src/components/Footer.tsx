@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             </h1>
           </div>
           <p className='text-secendery mx-2 text-xs sm:text-lg text-center mt-4 font-medium'>
-            It's always awsome to bring good ideas online.
+            {/* It's always awsome to bring good ideas online. */}
           </p>
         </div>
 
@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
               abdallah.degui.14@gmail.com
             </h1>
           </div>
-          <a
+          {/* <a
             href='https://www.linkedin.com/in/AbdoDegui/'
             className=' cursor-pointer rounded-full  text-blue-700  text-3xl  '
           >
             <AiFillLinkedin />
-          </a>
+          </a> */}
           <a className=' -mt-2 cursor-pointer' href='https://github.com/deguiabdo'>
             <IconGitHub />
           </a>

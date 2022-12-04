@@ -39,22 +39,22 @@ const WorkCard: React.FC<Work> = ({
       </div>
       <div className='flex items-center justify-center gap-2 flex-wrap'>
         {tech[0] && (
-          <div className='py-1 px-2 text-xs max-w-max text-green-800 bg-green-200 rounded-full'>
+          <div className='py-1 px-2 text-xs max-w-max text-green-800   rounded-full'>
             {tech[0]}
           </div>
         )}
         {tech[1] && (
-          <div className='py-1 px-2 text-xs max-w-max text-blue-800 bg-blue-200 rounded-full'>
+          <div className='py-1 px-2 text-xs max-w-max text-blue-800    rounded-full'>
             {tech[1]}
           </div>
         )}
         {tech[2] && (
-          <div className='py-1 px-2 text-xs max-w-max text-yellow-800 bg-yellow-200 rounded-full'>
+          <div className='py-1 px-2 text-xs max-w-max text-yellow-800    rounded-full'>
             {tech[2]}
           </div>
         )}
         {tech[3] && (
-          <div className='py-1 px-2 text-xs max-w-max text-red-800 bg-red-200 rounded-full'>
+          <div className='py-1 px-2 text-xs max-w-max text-red-800   rounded-full'>
             {tech[3]}
           </div>
         )}

@@ -9,8 +9,7 @@ const [length, setLength] = React.useState<number>(180);
     function handelLength():void{
       setLength(prev=>prev===180?2000:180)
     }
-    const p: string = `I’m an experienced software developer with over four years of experience 
-    in the industry, and I have worked on several projects during that time.
+    const p: string = `I’m an experienced software developer with 5+ years of experience.
         I create successful responsive websites that are fast, easy to use, and
         built with best practices. The main area of my expertise is front-end
         development, React, TailWind, HTML, CSS, JS, building small and medium web apps, custom
@@ -123,11 +122,11 @@ const [length, setLength] = React.useState<number>(180);
                 <GoPrimitiveDot />
               </div>
               <h1 className='-ml-2'>
-                <span className='font-medium'> Frontend:</span> I am familiar
-                with React js. And for the styling, I am great with CSS and
-                TailWind-CSS (low-level library). However, I have an
+                <span className='font-medium'> Frontend:</span> React js, Next.js, Typescript, Javascript, Zustand, React-Query  TailWind-CSS, CSS, HTML.
+                 {/* and
+                 (low-level library). However, I have an
                 intermediate level and i can work with any top-level CSS
-                framework such as bootstrap or Materialize.
+                framework such as bootstrap or Materialize. */}
               </h1>
             </div>
             <div className='flex -ml-[13px] my-2 gap-2'>
@@ -135,9 +134,7 @@ const [length, setLength] = React.useState<number>(180);
                 <GoPrimitiveDot />
               </div>
               <h1 className='-ml-2'>
-                <span className='font-medium'> Backend:</span> I am familiar
-                with Django framework to build restful endpoints. And I am also
-                familiar with ASP.NET core.
+                <span className='font-medium'> Backend:</span> Django framework and ASP.NET core.
               </h1>
             </div>
 
@@ -146,9 +143,7 @@ const [length, setLength] = React.useState<number>(180);
                 <GoPrimitiveDot />
               </div>
               <h1 className='-ml-2'>
-                <span className='font-medium'> DBMS:</span> i am familiar with
-                PostgreSQL and Microsoft SQL Server. However, i can switch to
-                any other DBMS when i need to.
+                <span className='font-medium'> DBs:</span> Mango DB and Microsoft SQL Server.
               </h1>
             </div>
             <div className='flex -ml-[13px] my-2 gap-2'>
@@ -156,11 +151,11 @@ const [length, setLength] = React.useState<number>(180);
                 <GoPrimitiveDot />
               </div>
               <h1 className='-ml-2'>
-                <span className='font-medium'> Programming language:</span>
+                <span className='font-medium'> Programming languages:</span>
                 (Javascript, Python and C# )
               </h1>
             </div>
-            <div className='flex -ml-[13px] my-2 gap-2'>
+            {/* <div className='flex -ml-[13px] my-2 gap-2'>
               <div className='text-2xl text-primary'>
                 <GoPrimitiveDot />
               </div>
@@ -170,7 +165,7 @@ const [length, setLength] = React.useState<number>(180);
                 go for Django-admin to produce elegant, stable, and powerful
                 Admin sections. But I am open to any suggestions to.
               </h1>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className='border border-primary  w-[380px] shadow-lg pb-3 '>
@@ -183,7 +178,7 @@ const [length, setLength] = React.useState<number>(180);
                 <GoPrimitiveDot />
               </div>
               <h1 className='-ml-2'>
-                <span className='font-medium'> Taking ownership</span>
+                <span className='font-medium'> I pick the right tools</span>
               </h1>
             </div>
             <div className='flex -ml-[13px] my-2 gap-2'>
@@ -192,8 +187,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Research, suggest, and implement new solutions based on
-                  industry standards and best practices
+                I keep my code clean
                 </span>
               </h1>
             </div>
@@ -204,7 +198,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Learn new technologies and concepts very fast.
+                Problem-solver, with a can-do attitude
                 </span>
               </h1>
             </div>
@@ -214,8 +208,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Implement pixel perfect responsive screens based on design
-                  specification(XD or Figma)
+                Willing to adapt
                 </span>
               </h1>
             </div>
@@ -225,8 +218,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Able to effectively self manage during independent projects,
-                  as well as collaborate as part of a productive team
+                Efficient through optimization
                 </span>
               </h1>
             </div>
@@ -236,8 +228,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Strong troubleshooting, problem-solving, communication, and
-                  analytical skills
+                Aim for success at the start
                 </span>
               </h1>
             </div>
@@ -247,8 +238,7 @@ const [length, setLength] = React.useState<number>(180);
               </div>
               <h1 className='-ml-2'>
                 <span className='font-medium'>
-                  Ability to work under high pressure and complete project under
-                  tight deadlines
+                Self-evaluate along the way
                 </span>
               </h1>
             </div>
